@@ -32,7 +32,7 @@ class RootCoordinator {
     private var mainNavCoordinator: MainNavigationCoordinator?
     
     internal func startMainNavigation() {
-        mainNavCoordinator = MainNavigationCoordinator(rootViewController: rootViewController)
+        mainNavCoordinator = MainNavigationCoordinator(rootViewController: self.rootViewController)
         mainNavCoordinator?.start(animated: true)
     }
 }

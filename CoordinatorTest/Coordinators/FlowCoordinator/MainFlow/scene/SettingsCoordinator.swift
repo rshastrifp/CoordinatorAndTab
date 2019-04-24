@@ -12,6 +12,7 @@ class SettingsCoordinator: NSObject {
     
     private(set) lazy var rootViewController: UINavigationController = {
         let controller = UINavigationController(rootViewController: ViewController4())
+        controller.tabBarItem = UITabBarItem(title: "Settings" , image: nil, selectedImage: nil)
         return controller
     }()
     

@@ -25,8 +25,6 @@ class ViewController3: UIViewController {
         headerView.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
         headerView.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier : 1).isActive = true
         headerView.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 1).isActive = true
-        
-        self.title = "Yellow"
     }
     
 }

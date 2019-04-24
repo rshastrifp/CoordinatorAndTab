@@ -12,6 +12,7 @@ class TransferCoordinator: NSObject {
     
     private(set) lazy var rootViewController: UINavigationController = {
         let controller = UINavigationController(rootViewController: ViewController2())
+        controller.tabBarItem = UITabBarItem(title: "Transfer" , image: nil, selectedImage: nil)
         return controller
     }()
     

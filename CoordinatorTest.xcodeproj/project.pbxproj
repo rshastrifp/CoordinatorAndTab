@@ -114,8 +114,8 @@
 		910662932266766500C82EDF /* MainFlow */ = {
 			isa = PBXGroup;
 			children = (
-				910662922266762500C82EDF /* scene */,
 				E4C85F3D21F4EB8F00FEFC65 /* MainCoordinator.swift */,
+				910662922266762500C82EDF /* scene */,
 			);
 			path = MainFlow;
 			sourceTree = "<group>";

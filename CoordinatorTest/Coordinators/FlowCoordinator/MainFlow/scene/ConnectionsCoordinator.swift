@@ -1,5 +1,5 @@
 //
-//  BillsCoordinator.swift
+//  ConnectionsCoordinator.swift
 //  CoordinatorTest
 //
 //  Created by Ronak Shastri on 2019-04-16.
@@ -12,6 +12,7 @@ class ConnectionsCoordinator: NSObject {
     
     private(set) lazy var rootViewController: UINavigationController = {
         let controller = UINavigationController(rootViewController: ViewController3())
+        controller.tabBarItem = UITabBarItem(title: "Connection" , image: nil, selectedImage: nil)
         return controller
     }()
     

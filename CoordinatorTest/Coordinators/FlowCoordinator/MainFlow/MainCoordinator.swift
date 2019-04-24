@@ -22,10 +22,9 @@ class MainNavigationCoordinator {
         controller.viewControllers = [
             homeCoordinator.rootViewController,
             transfersCoordinator.rootViewController,
-            billsCoordinator.rootViewController,
+            connectionsCoordinator.rootViewController,
             settingsLandingCoordinator.rootViewController
         ]
-        UITabBar.appearance().barTintColor = UIColor.white
         return controller
     }()
         
@@ -39,7 +38,7 @@ class MainNavigationCoordinator {
         return coordinator
     }()
     
-    private(set) lazy var billsCoordinator: ConnectionsCoordinator = {
+    private(set) lazy var connectionsCoordinator: ConnectionsCoordinator = {
         let coordinator = ConnectionsCoordinator()
         return coordinator
     }()

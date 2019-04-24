@@ -17,7 +17,7 @@ class ViewController1: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         headerView = UIView()
-        headerView.backgroundColor = .green
+        headerView.backgroundColor = .red
         self.view.addSubview(headerView)
         
         headerView.translatesAutoresizingMaskIntoConstraints = false
@@ -25,8 +25,6 @@ class ViewController1: UIViewController {
         headerView.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
         headerView.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier : 1).isActive = true
         headerView.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 1).isActive = true
-        
-        self.title = "Green"
     }
 
 }
